@@ -9,25 +9,25 @@ export const Header = () => {
       </div>
       <nav className="header__nav">
         <NavLink
-          className={({ isActive }) => (isActive ? "active-link" : null)}
+          className={({ isActive }) => (isActive ? "active-link" : undefined)}
           to="/"
         >
           Home
         </NavLink>
         <NavLink
-          className={({ isActive }) => (isActive ? "active-link" : null)}
+          className={({ isActive }) => (isActive ? "active-link" : undefined)}
           to="/acerca"
         >
           Acerca
         </NavLink>
         <NavLink
-          className={({ isActive }) => (isActive ? "active-link" : null)}
+          className={({ isActive }) => (isActive ? "active-link" : undefined)}
           to="/contacto"
         >
           Contacto
         </NavLink>
         <NavLink
-          className={({ isActive }) => (isActive ? "active-link" : null)}
+          className={({ isActive }) => (isActive ? "active-link" : undefined)}
           to="/servicios"
         >
           Servicios
